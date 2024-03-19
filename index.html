@@ -17,6 +17,8 @@ As opções do campo “Tipo de transação” são: Compra e Venda. Caso não e
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
+
     <!--A fonte utilizada é a Lato.-->
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
 <style>
@@ -27,37 +29,58 @@ body {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Controle Financeiro</title>
-    <style></style>
 </head>
 <body>
-    <div>
-        <h1>Controle Financeiro</h1>
-        <br>
-        <h2>Tipo de Transação</h2>
-        <br>
-        <h2>Nome da Mercadoria</h2>
-        <br>
-        <h2>Valor</h2>
-        <br>
-        <h3>Adicionar Transação</h3>
-        <hr>
-        <h2>Extrato de Transações</h2>
-        <br>
-        <h3>Mercadoria // Valor</h3>
-        <p>Nome da Mercadoria // Valor em R$</p>
-        <hr>
-        <p>Nome da Mercadoria // Valor em R$</p>
-        <hr>
-        <p>Nome da Mercadoria // Valor em R$</p>
-        <hr>
-        <h3>Total</h3> <!--Informar se deu lucro ou prejuizo no final-->
-    </div> 
-    
-    <div> <!--Menu-->
-        <h4>Resumo</h4>
-        <h4>Dashboard</h4>
-        <h4>Configurações</h4>
-    </div>
+    <div class="menu"></div> <!--Menu Responsivo-->
+    <ul>
+        <li>
+            <a href="#">
+                <span class="icon"><ion-icon name="menu-outline"></ion-icon></span>
+                <span class="title">Resumo</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="icon"></span>
+                <span class="title">Dashboard</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="icon"></span>
+                <span class="title">Configurações</span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+    <!--Caixa de Texto-->
+    <h1>Controle Financeiro</h1>
+    <br>
+    <h2>Tipo de Transação</h2>
+    <textarea name="" id="" cols="50" rows="2"></textarea>
+    <br>
+    <h2>Nome da Mercadoria</h2>
+    <textarea name="" id="" cols="50" rows="2"></textarea>
+    <br>
+    <h2>Valor</h2>
+    <textarea name="" id="" cols="50" rows="2"></textarea>
+    <br>
+    <h3>Adicionar Transação</h3>
+    <hr>
+    <h2>Extrato de Transações</h2>
+    <br>
+    <h3>Mercadoria // Valor</h3>
+    <p>Nome da Mercadoria // Valor em R$</p>
+    <hr>
+    <p>Nome da Mercadoria // Valor em R$</p>
+    <hr>
+    <p>Nome da Mercadoria // Valor em R$</p>
+    <hr>
+    <h3>Total</h3> <!--Informar se deu lucro ou prejuizo no final-->
+     
+    <script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
+    <script  nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script> src="./script.js"</script>
 </body>
 </html>
