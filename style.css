@@ -1,5 +1,40 @@
-/*CSS:
-Testar em smartphones, tablets (modos portrait e landscape) e monitores a 
-partir de 1024px até 1900px. (Através do inspecionar elemento no navegador)
-A largura máxima do conteúdo é 1100px.
-*/
+* {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100;
+    background-color: #e3e9f7;
+}
+
+main {
+    padding: 20px;
+}
+
+menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    height: 100vh;
+    border-radius: 0px 18px 18px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap')
+
+
