@@ -15,7 +15,7 @@ main {
     padding: 20px;
 }
 
-menu {
+#sidebar {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -24,6 +24,13 @@ menu {
     border-radius: 0px 18px 18px 0px;
 }
 
+#side_item {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #0a0a0a;
+}
 
 
 
