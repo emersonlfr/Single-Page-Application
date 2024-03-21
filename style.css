@@ -22,15 +22,53 @@ main {
     background-color: #ffffff;
     height: 100vh;
     border-radius: 0px 18px 18px 0px;
+    position: relative;
 }
 
-#side_item {
+#menu {
+    padding: 12px;
+}
+
+#side_items {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;
+}
+
+.side-item {
+    border-radius: 8px;
+    padding: 14px;
+    cursor: pointer;
+}
+
+.side-item a {
     text-decoration: none;
     display: flex;
     align-items: center;
-    gap: 14px;
+    justify-content: center;
     color: #0a0a0a;
 }
+
+#open_bar {
+    position: absolute;
+    top: 30px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;   
+}
+
+.title {
+    width: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+
 
 
 
