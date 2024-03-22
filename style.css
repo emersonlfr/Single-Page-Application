@@ -7,7 +7,7 @@
 
 body {
     display: flex;
-    min-height: 100;
+    min-height: 100vh;
     background-color: #e3e9f7;
 }
 
@@ -48,12 +48,21 @@ main {
     cursor: pointer;
 }
 
+
 .side-item a {
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #0a0a0a;
+}
+
+.side-item a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
 }
 
 #open_bar {
@@ -66,6 +75,10 @@ main {
     cursor: pointer;   
 }
 
+#open_bar_icon {
+    transition: transform .3s ease;
+}
+
 .title {
     width: 0px;
     overflow: hidden;
@@ -76,17 +89,9 @@ main {
     height: 0px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+#sidebar.open-sidebar {
+    min-width: 15%;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap')
 
