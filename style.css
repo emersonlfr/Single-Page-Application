@@ -11,7 +11,7 @@ body {
     background-color: #e3e9f7;
 }
 
-main {
+form {
     padding: 20px;
     position: fixed;
     z-index: 1;
@@ -92,6 +92,36 @@ main {
 #sidebar.open-sidebar {
     min-width: 15%;
 }
+
+form h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.input-single {
+    position: relative;
+    margin: 20px 0;
+}
+
+.input-single label {
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+}
+
+.input {
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    font-size: 17px;
+}
+
+form .input-single .input: focus ~ label {
+    transform: translateY(-20px);
+    font-size: 12px;
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap')
 
